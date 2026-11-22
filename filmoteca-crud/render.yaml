@@ -2,6 +2,7 @@ services:
   - type: web
     name: filmoteca-crud
     runtime: python
+        rootDir: filmoteca-crud
     plan: free
     region: oregon
     buildCommand: pip install -r requirements.txt
